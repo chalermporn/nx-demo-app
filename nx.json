@@ -12,10 +12,17 @@
   "npmScope": "nx-demo-app",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "accessToken": "o2ftSaI3YFx4O0pMBeTDxm8sH8Tw5tjj",
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "accessToken": "NzgxZmZiMzQtNWY1My00MDUwLTk0ZjItMjE3Mjk3Zjk0NzE0fHJlYWQtd3JpdGU=",
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -25,7 +32,9 @@
     },
     "agent-e2e": {
       "tags": [],
-      "implicitDependencies": ["agent"]
+      "implicitDependencies": [
+        "agent"
+      ]
     },
     "api": {
       "tags": []
