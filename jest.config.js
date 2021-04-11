@@ -1,3 +1,7 @@
 module.exports = {
-  projects: ['<rootDir>/apps/agent', '<rootDir>/apps/api'],
+  projects: [
+    '<rootDir>/apps/agent',
+    '<rootDir>/apps/api',
+    '<rootDir>/libs/header',
+  ],
 };

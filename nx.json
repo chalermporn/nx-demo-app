@@ -14,7 +14,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "accessToken": "NzgxZmZiMzQtNWY1My00MDUwLTk0ZjItMjE3Mjk3Zjk0NzE0fHJlYWQtd3JpdGU=",
+        "accessToken": "Mzc2MTVjYzUtNDQxYS00YTk5LWFhYjEtNDhkMzgzNzNhNzBmfHJlYWQtd3JpdGU=",
         "cacheableOperations": [
           "build",
           "lint",
@@ -41,6 +41,15 @@
     },
     "api-interfaces": {
       "tags": []
+    },
+    "header": {
+      "tags": []
+    },
+    "header-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "header"
+      ]
     }
   }
 }
